@@ -2,7 +2,6 @@ import { redirect } from "next/navigation";
 import { auth, redirectToSignIn } from "@clerk/nextjs";
 
 import prismadb from "@/lib/prismadb";
-import { checkSubscription } from "@/lib/subscription";
 
 import { CompanionForm } from "./components/companion-form";
 
