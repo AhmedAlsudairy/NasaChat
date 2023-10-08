@@ -50,9 +50,39 @@ The validity of our project is supported by:
 
 - Scientific and logical implementability.
 - Realism grounded in NASA data.
+## Technologies Used
 
+- *Programming Language:* TypeScript
+- *Styling Tool:* Tailwind CSS
+- *UI Library:* Shadcn
+- *Building Framework:* Next.js
+- *Database:* Prisma, MySQL
+- *API Fetch:* Axios
+- *User Management System:* Clerk
+- *API AI:* OpenAI
+- *Cloud-Based Storage:* Cloudinary
+- *Modeling:* Replicate
+- *AI Memory Database:* Vector Database
+
+## Installation
+
+Provide instructions on how to set up the project locally. Include any dependencies that need to be installed and any configuration files that need to be set up.
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/your-project.git
+
+# Change directory
+cd your-project
+
+# Install dependencies
+npm install
 
 ### Reference
 
 This project was inspired by [next13-ai-companion](https://github.com/AntonioErdeljac/next13-ai-companion).
+
+
+
+
 
