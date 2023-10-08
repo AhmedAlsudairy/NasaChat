@@ -76,7 +76,7 @@ cd your-project
 
 # Install dependencies
 npm install
-
+```
 ### Reference
 
 This project was inspired by [next13-ai-companion](https://github.com/AntonioErdeljac/next13-ai-companion).
