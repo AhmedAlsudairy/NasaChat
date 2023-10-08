@@ -55,7 +55,7 @@ export async function POST(
     const companionKey = {
       companionName: name!,
       userId: user.id,
-      modelName: "llama2-13b",
+      modelName: "llama2-17b",
     };
     const memoryManager = await MemoryManager.getInstance();
 
@@ -85,7 +85,7 @@ export async function POST(
     // Call Replicate for inference
     const model = new Replicate({
       model:
-        "a16z-infra/llama-2-13b-chat:df7690f1994d94e96ad9d568eac121aecf50684a0b0963b25a41cc40061269e5",
+        "meta/llama-2-70b-chat:02e509c789964a7ea8736978a43525956ef40397be9033abf9fd2badfe68c9e3",
       input: {
         max_length: 2048,
       },
