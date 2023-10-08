@@ -2,7 +2,6 @@
 
 # STAR: Revolutionizing Technical Standards with AI
 
-![Project Logo/Icon](path/to/your/logo_or_icon.png)
 
 ## Team Members
 
