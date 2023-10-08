@@ -113,9 +113,9 @@ export async function POST(
         .catch(console.error)
     );
 
-    const cleaned = resp.replaceAll(",", "");
-    const chunks = cleaned.split("\n");
-    const response = chunks[0];
+  
+;
+const response = resp.replace(/,/g, '').replace(/\n/g, '\n\n');
 
     await memoryManager.writeToHistory("" + response.trim(), companionKey);
     var Readable = require("stream").Readable;
